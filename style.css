@@ -18,7 +18,42 @@ body {
 }
 
 #page-content {
-  margin-left: 300px;
+  margin-left: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+#top-wrapper {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+#left-wrapper {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+#top {
+  flex: 2;
+}
+
+#social{
+  flex: 1;
+}
+
+#movies {
+  flex: 2;
+}
+
+#about {
+  flex: 1;
 }
 
 .nav-item {
@@ -33,11 +68,6 @@ body {
 .nav-item:hover {
   background-color: rgb(200,200,200);
   color: rgb(60,60,60);
-}
-
-.container {
-  width: 600px;
-  margin: 0 auto;
 }
 
 .card {
